@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fares Mohamed — Flutter Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="cursor-outer"></div>
+<div id="cursor-inner"></div>
+<canvas id="bg-canvas"></canvas>
+<div id="grain"></div>
+
+<nav id="nav">
+  <div class="nav-links">
+    <a href="#hero" data-nav>Home</a>
+    <a href="#projects" data-nav>Projects</a>
+    <a href="#about" data-nav>About</a>
+    <a href="#contact" data-nav>Contact</a>
+  </div>
+  <div class="nav-loc"><span id="clock">--:--</span> · Cairo, Egypt</div>
+</nav>
+
+<div id="smooth-wrapper">
+<div id="smooth-content">
+
+  <section id="hero">
+    <h1 class="hero-title reveal-stagger in">
+      <span>FARES</span>
+    </h1>
+    <p class="hero-sub reveal">Flutter developer based in Cairo, building polished cross‑platform mobile apps with Dart, BLoC/Cubit, Firebase, and REST APIs — architected clean, animated well.</p>
+    <div class="hero-cta reveal">
+      <a href="#projects" class="btn btn-primary magnetic" data-cursor="grow">View Projects</a>
+      <a href="#contact" class="btn btn-ghost magnetic" data-cursor="grow">Contact Fares</a>
+    </div>
+    <div class="hero-scroll-hint"><div class="line"></div>SCROLL</div>
+  </section>
+
+  <section id="projects">
+    <div class="eyebrow"><span class="dot"></span>Projects</div>
+    <div class="section-head reveal">
+      <div>
+        <h2 class="section-title">Selected work</h2>
+        <p class="section-desc">A focused set of Flutter and Django projects covering mobile UI, state management, Firebase, REST APIs, local persistence, and full‑stack web development.</p>
+      </div>
+      <a href="#" class="btn btn-ghost magnetic" data-cursor="grow">All Projects</a>
+    </div>
+
+    <div class="project-grid reveal-stagger">
+      <div class="project-card" data-cursor="view">
+        <div class="pc-bg"></div>
+        <span class="pc-glyph">01</span>
+        <div class="pc-inner">
+          <span class="pc-tag">Mobile · Flutter</span>
+          <h3>Food Delivery App</h3>
+          <span class="pc-stack">Multi‑BLoC · list/grid browsing · cart with tax &amp; delivery calc</span>
+        </div>
+      </div>
+      <div class="project-card" data-cursor="view">
+        <div class="pc-bg"></div>
+        <span class="pc-glyph">02</span>
+        <div class="pc-inner">
+          <span class="pc-tag">Mobile · Flutter</span>
+          <h3>To Do App</h3>
+          <span class="pc-stack">BLoC/Cubit · local persistence · full CRUD</span>
+        </div>
+      </div>
+      <div class="project-card" data-cursor="view">
+        <div class="pc-bg"></div>
+        <span class="pc-glyph">03</span>
+        <div class="pc-inner">
+          <span class="pc-tag">Mobile · Flutter · Firebase</span>
+          <h3>Notes App</h3>
+          <span class="pc-stack">Email/Google auth · real‑time Firestore sync</span>
+        </div>
+      </div>
+      <div class="project-card" data-cursor="view">
+        <div class="pc-bg"></div>
+        <span class="pc-glyph">04</span>
+        <div class="pc-inner">
+          <span class="pc-tag">Mobile · Flutter</span>
+          <h3>News App</h3>
+          <span class="pc-stack">NewsAPI · Dio · BLoC/Cubit</span>
+        </div>
+      </div>
+      <div class="project-card" data-cursor="view">
+        <div class="pc-bg"></div>
+        <span class="pc-glyph">05</span>
+        <div class="pc-inner">
+          <span class="pc-tag">Web · Django</span>
+          <h3>Social Hub</h3>
+          <span class="pc-stack">Posts, settings &amp; social interaction · HTML/CSS/JS/Python</span>
+        </div>
+      </div>
+      <div class="project-card" data-cursor="view">
+        <div class="pc-bg"></div>
+        <span class="pc-glyph">06</span>
+        <div class="pc-inner">
+          <span class="pc-tag">Mobile · Flutter</span>
+          <h3>Kids Education Learning</h3>
+          <span class="pc-stack">Clean Architecture · BLoC/Cubit · GetIt · Dartz · Dio</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="eyebrow"><span class="dot"></span>About</div>
+    <div class="reveal">
+      <h2 class="section-title">Third‑year CS student, building for mobile.</h2>
+      <p class="section-desc" style="max-width:640px;">Studying Computer Science at Zagazig University with a focus on Flutter development. Currently a Flutter Developer Trainee at DEPI, with prior full‑stack and data‑science training at ITI and IBM.</p>
+    </div>
+
+    <div class="plus-row reveal"><span>+</span><span>+</span><span>+</span></div>
+
+    <div class="about-parallax">
+      <div class="p-layer" data-speed="0.06"><span class="p-tag">Clean Architecture</span></div>
+      <div class="p-layer" data-speed="0.12"><span class="p-tag">BLoC / Cubit</span></div>
+      <div class="p-layer" data-speed="0.18"><span class="p-tag">REST · Firebase</span></div>
+    </div>
+
+    <div class="skills-grid reveal-stagger">
+      <div class="skill-col">
+        <h4>Mobile</h4>
+        <ul>
+          <li>Flutter</li><li>Dart</li><li>BLoC / Cubit</li><li>Firebase Auth</li>
+          <li>Firestore</li><li>Cloud Storage</li><li>REST APIs</li><li>Dio</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h4>Backend &amp; Frontend</h4>
+        <ul>
+          <li>Python</li><li>Django</li><li>PostgreSQL</li><li>REST APIs</li>
+          <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h4>Languages</h4>
+        <ul>
+          <li>Dart</li><li>Python</li><li>JavaScript</li><li>SQL</li><li>C++</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h4>Tools &amp; CS Fundamentals</h4>
+        <ul>
+          <li>Git / GitHub</li><li>VS Code</li><li>Android Studio</li><li>Postman</li>
+          <li>OOP · Data Structures</li><li>Algorithms</li><li>Databases</li>
+          <li>Networks · OS</li><li>Cloud</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-list reveal-stagger">
+      <div class="exp-row">
+        <div><div class="exp-role">Flutter Developer Trainee</div><div class="exp-org">Digital Egypt Pioneers Initiative (DEPI)</div></div>
+        <div class="exp-date">12/2025 — Present</div>
+      </div>
+      <div class="exp-row">
+        <div><div class="exp-role">Gen AI Trainee</div><div class="exp-org">ITI × NVIDIA — Gen AI Code Camp</div></div>
+        <div class="exp-date">10/2025</div>
+      </div>
+      <div class="exp-row">
+        <div><div class="exp-role">Full‑Stack Web Developer Intern</div><div class="exp-org">Information Technology Institute (ITI)</div></div>
+        <div class="exp-date">08/2025 — 09/2025</div>
+      </div>
+      <div class="exp-row">
+        <div><div class="exp-role">Back‑End Developer Intern</div><div class="exp-org">Information Technology Institute (ITI)</div></div>
+        <div class="exp-date">01/2025 — 02/2025</div>
+      </div>
+      <div class="exp-row">
+        <div><div class="exp-role">IBM Data Science Trainee</div><div class="exp-org">Digital Egypt Pioneers Initiative (DEPI)</div></div>
+        <div class="exp-date">11/2024 — 05/2025</div>
+      </div>
+    </div>
+
+    <div class="plus-row reveal"><span>+</span><span>+</span><span>+</span></div>
+
+    <div class="reveal-stagger" style="display:grid;grid-template-columns:1fr 1.4fr;gap:40px;">
+      <div class="skill-col">
+        <h4>Education</h4>
+        <ul>
+          <li>B.Sc. Computer Science — Zagazig University, 2023 – present</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h4>Certificates</h4>
+        <ul>
+          <li>IBM Data Science Professional Certificate — DEPI</li>
+          <li>Back‑End Developer (Python &amp; Django) — ITI</li>
+          <li>Full‑Stack Web Developer — ITI</li>
+          <li>Gen AI for Beginners — ITI × NVIDIA</li>
+          <li>ICPC Level 0</li>
+          <li>Algorithm Analysis &amp; Design — Udemy</li>
+          <li>Object‑Oriented Programming — Mahara Tech</li>
+          <li>Python Programming — Mahara Tech</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="eyebrow"><span class="dot"></span>Contact</div>
+    <div class="reveal">
+      <h2 class="section-title">Let's build something.</h2>
+      <p class="section-desc">Open to Flutter roles and mobile projects — reach out directly or send a message below.</p>
+    </div>
+
+    <div class="plus-row reveal"><span>+</span><span>+</span><span>+</span></div>
+
+    <div class="contact-grid reveal">
+      <div class="contact-info">
+        <h4>Email</h4>
+        <a href="mailto:farestarabek@gmail.com" class="magnetic" data-cursor="grow">farestarabek@gmail.com</a>
+        <h4>Phone</h4>
+        <a href="tel:+201551533873" class="magnetic" data-cursor="grow">+20 155 153 3873</a>
+        <h4>Elsewhere</h4>
+        <a href="#" class="magnetic" data-cursor="grow">GitHub — FAr-Es</a>
+        <a href="#" class="magnetic" data-cursor="grow">LinkedIn</a>
+      </div>
+      <form onsubmit="return false;">
+        <div class="field"><label>Name</label><input type="text" placeholder="Your name"></div>
+        <div class="field"><label>Email</label><input type="email" placeholder="you@email.com"></div>
+        <div class="field"><label>Message</label><textarea placeholder="Tell me about the project"></textarea></div>
+        <button class="btn btn-primary magnetic" style="align-self:flex-start;" data-cursor="grow">Send message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Fares Mohamed</span>
+    <span>Available for Flutter roles and mobile projects</span>
+    <div class="footer-social">
+      <a href="#" class="magnetic" data-cursor="grow">GitHub</a>
+      <a href="#" class="magnetic" data-cursor="grow">LinkedIn</a>
+    </div>
+  </footer>
+
+</div>
+</div>
+<div id="spacer"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
